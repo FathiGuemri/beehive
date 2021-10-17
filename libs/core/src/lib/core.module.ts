@@ -12,7 +12,8 @@ import { GraphQLModule } from "@nestjs/graphql";
       validationSchema
     }),
     GraphQLModule.forRoot({
-      autoSchemaFile: true
+      autoSchemaFile: true,
+      playground: true
     })
   ],
   controllers: [],
